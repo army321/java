@@ -1,0 +1,15 @@
+package test;
+
+import java.util.*;
+import java.applet.*;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+
+
+public class example5_9 extends Applet implements ActionListener {
+	JTextArea textA;
+	jTextField textF;
+	JButton b1,b2;
+	
+}

@@ -1,0 +1,30 @@
+package test;
+
+import java.util.*;
+import java.applet.*;
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.*;
+
+
+public class example5_9 extends Applet implements ActionListener {
+	JTextArea textA;
+	JTextField textF;
+	JButton b1,b2;
+	public void init() {
+		setSize(250,250);
+		textA = new JTextArea("",5,10);
+		textA.setBackground(Color.cyan);
+		textF = new JTextField("",10);
+		textF.setBackground(Color.YELLOW);
+		b1 = new JButton("求和");
+		b2 = new JButton("重新开始");
+		textF.setEditable(false);
+		b1.addActionListener(this);
+		b2.addActionListener(this);
+		add(textA);
+		add(textF);
+		add(b1);
+		add(b2);
+	}
+}

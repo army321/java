@@ -1,0 +1,29 @@
+package test;
+
+import javax.swing.*;
+
+import java.awt.*;
+import java.awt.event.*;
+import java.applet.*;
+
+
+
+class MyWindow extends JFrame {
+	public MyWindow(int w,int h) {
+	setTitle("¹ö¶¯ÌõÊµÀý");
+	Container con = getContentPane();
+	con.setPreferredSize(new Dimension(w,h));
+	
+	}
+}
+
+public class example5_4 extends Applet {
+
+	
+	MyWindow myWindow;
+	public void init()
+	{
+		myWindow = new MyWindow(400,300);
+	}
+
+}

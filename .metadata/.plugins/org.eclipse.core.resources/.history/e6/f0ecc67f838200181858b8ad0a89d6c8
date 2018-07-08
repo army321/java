@@ -1,0 +1,22 @@
+package test;
+//∂‡Ã¨
+
+class Shape{
+	float area() {return 0.0f;}
+}
+class Circle extends Shape{
+	float R;
+	Circle(float r)
+	{
+		R =r;
+	}
+}
+
+public class example3_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
